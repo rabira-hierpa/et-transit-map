@@ -1,0 +1,20 @@
+{
+  "name": "et-transit-map",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run optimize-images && tsc && vite build",
+    "optimize-images": "node scripts/optimize-images.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "photoswipe": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "sharp": "^0.33.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
