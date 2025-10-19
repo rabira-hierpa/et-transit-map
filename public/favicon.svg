@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<!-- Green stripe (top) -->
+	<rect width="100" height="33.33" fill="#009639" />
+
+	<!-- Yellow stripe (middle) -->
+	<rect y="33.33" width="100" height="33.33" fill="#FEDD00" />
+
+	<!-- Red stripe (bottom) -->
+	<rect y="66.66" width="100" height="33.34" fill="#DA121A" />
+
+	<!-- Blue circle with star in center -->
+	<circle cx="50" cy="50" r="20" fill="#0F47AF" />
+
+	<!-- Star of David (Pentagram) -->
+	<path
+		d="M50 35 L53.09 44.27 L62.94 44.27 L55.42 49.73 L58.51 59 L50 53.54 L41.49 59 L44.58 49.73 L37.06 44.27 L46.91 44.27 Z"
+		fill="#FEDD00" />
+</svg>

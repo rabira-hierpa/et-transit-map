@@ -1,81 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>National Public Route Map of Ethiopia</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethiopian Public Transit Network Map</title>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="description"
+      content="Interactive Ethiopian Public Transit Network Map - Explore FTA, Anbessa, Sheger, and Taxi routes across Ethiopia"
     />
 
-    <!-- Bootstrap CSS -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
   </head>
   <body>
-    <div class="row">
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-12">
-        <div class="jumbotron jumbotron-fluid" style="background: white;">
-          <div class="container">
-            <h1 class="display-4">
-              The National Intercity Public Bus Network Map of Ethiopia
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-12">
-        <!-- FTA National Map  -->
-        <img
-          src="./route-details/fta-national-route-map-am.png"
-          class="img-fluid"
-          alt="The National Public Route map of Ethiopia"
-        />
-      </div>
-      <div class="col-lg-12">
-        <img
-          class="img-fluid"
-          src="./route-details/route-details-page-1.png"
-          alt="Route details of the map page 1"
-        />
-      </div>
-      <div class="col-lg-12 mt-5">
-        <img
-          class="img-fluid"
-          src="./route-details/route-details-page-2.png"
-          alt="Route details of the map"
-        />
-      </div>
-    </div>
-    <!-- Footer begin -->
-    <div class="row justify-content-lg-center">
-      <div class="col-lg-6 offset-lg-3 mt-5">
-        <i class="fas fa-copyright" aria-hidden="true"></i>Copyright 2019
-      </div>
-    </div>
-    <!-- Footer end -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
