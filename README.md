@@ -1,4 +1,4 @@
-# 🇪🇹 Ethiopian Public Transit Network
+# 🇪🇹 Ethiopian National Public Transit Network
 
 An interactive web application showcasing Ethiopia's national intercity public bus network and city transit routes. View detailed maps from FTA (Federal Transport Authority), Anbessa, Sheger, and Taxi services.
 
